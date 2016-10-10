@@ -109,7 +109,7 @@ BOARD_USES_QC_TIME_SERVICES := true
 TARGET_RIL_VARIANT := caf
 
 # Hardware tunables framework
-BOARD_HARDWARE_CLASS := $(COMMON_PATH)/cmhw/
+#BOARD_HARDWARE_CLASS := $(COMMON_PATH)/cmhw/
 
 # Bluetooth
 BOARD_HAVE_BLUETOOTH := true
