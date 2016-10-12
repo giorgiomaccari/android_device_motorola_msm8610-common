@@ -92,15 +92,15 @@ PRODUCT_PACKAGES += \
     audio_policy.msm8610
 
 # Browser
-PRODUCT_PACKAGES += \
-    Gello
+#PRODUCT_PACKAGES += \
+#    Gello
 
 # Camera
 PRODUCT_PACKAGES += \
     camera.msm8610 \
     libboringssl-compat \
-    libshim_qcopt \
-    Snap
+    libshim_qcopt
+#    Snap
 
 # IPC router config
 PRODUCT_COPY_FILES += \
